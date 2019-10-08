@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* ======================================================================  */
+/* ====================================================================== */
+/* INPUT-BODY-TWO */
+#input-body-two{
+   padding-top: 5rem;
+    padding-left: 3rem;
+    background-image: url(../img/computer.jpeg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    color: lightgrey;
+}
+#input-body-two h1{
+    font-size: 3.5rem;
+    width: 30rem;
+    /* color: white; */
+    font-weight: bold;
+}
+#input-body-two p{
+    font-size: 15px;
+}
+.inputSectionH1{
+    width: 45rem;
+}
+.inputSectionH1Two{
+    width: 45rem;
+}
+
+/* ======================================================================  */
+/* ====================================================================== */
+/* INPUT-BODY */
+
+.card{
+    margin: 3rem 5px 5px 5rem;
+    font-size: 14px;
+    background-color: #333 !important; 
+    padding: 5px 5px 5px 5px;
+    width: 26rem;
+    box-shadow: 0 1px 5px 1px lightgrey;
+}
+.card-body{
+    margin-left: 2rem;
+}
+.card-body input[type=text],
+.card-body input[type=password]{
+    width: 20rem;
+    padding: 5px 2px 5px 5px;
+    font-size: 12px;
+    border: none;
+    background: rgb(43, 42, 42);
+    color: lightgrey;
+}
+/* .card-body input[type=text]:focus,
+.card-body input[type=password]:focus{
+    outline-style: inset;
+} */
+.card-body input[type=button]{
+    width: 20rem;
+    margin-top: 1rem;
+    background-color: orangered;
+    border: none;
+    padding: 5px 0 5px 0;
+    color: lightgrey;
+}
+.inputText p a{
+    font-size: 14px;
+    text-decoration: none;
+    color: lightgrey;
+}
+.creatBtn input[type=button]{
+    padding: 5px 5px 5px 5px;
+    width: 15rem;
+    background-color: inherit;
+    border: 1px solid lightgrey;
+    color: lightgrey;
+    margin-top: 2rem;
+}
+#input-body{
+    background: #333;
+    height: 40.9rem;
+}
+#input-body a i{
+    transition: 900ms ease-in;
+}
+/* #input-body a i:hover{
+    transform: rotate(360deg);
+} =====================================================================================================*/
+.inputAnchor p{
+    color: lightgrey;
+}
+.inputAnchor p a{
+    text-decoration: none;
+}
+.input-icon{
+    /* text-align: center; */
+    justify-content: center;
+}
+.input-icon a i{
+    font-size:1.2rem;
+}
